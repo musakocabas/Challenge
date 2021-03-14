@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        LeapYear ly= new LeapYear();
+        System.out.println(ly.isLeapYear(1700));
+
        /* SpeedConverter sc = new SpeedConverter();
         sc.printConversion(1.25);
         sc.printConversion(10.25);
@@ -13,11 +16,11 @@ public class Main {
         mb.printMegaBytesAndKiloBytes(-5000); *
 
         */
-        BarkingDog bd = new BarkingDog();
+      /*  BarkingDog bd = new BarkingDog();
         System.out.println(bd.shouldWakeUp(true,1));
         System.out.println(bd.shouldWakeUp(false,2));
         System.out.println(bd.shouldWakeUp(true,8));
-        System.out.println(bd.shouldWakeUp(true,-1));
+        System.out.println(bd.shouldWakeUp(true,-1));*/
 
     }
 }
