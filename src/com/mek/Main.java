@@ -9,7 +9,14 @@ public class Main {
         int hreps = 1;
         format(digits,wreps,hreps);*/
 
-        System.out.println(MethodOverloading.calcFeetAndInchesToCentimeters(157));
+     //   System.out.println(MethodOverloading.calcFeetAndInchesToCentimeters(157));
+
+        MinutesToYearsDaysCalculator.printYearsAndDays(525600);
+        MinutesToYearsDaysCalculator.printYearsAndDays(1051200);
+        MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+        MinutesToYearsDaysCalculator.printYearsAndDays(-561600);
+
+
 
 
 
